@@ -15,11 +15,14 @@ python queryArg.py --params ./parameters.json
 ## Parameters
 
 The parameters.json file should contain the following parameters:
+
+```json
 {
     "subscription_ids": a list of subscription ids,
     "query": the query to be executed, currently set to fetch security assessments just like the CSV export button in the Azure portal,
     "export_file_path": the path where the CSV file will be stored
 }
+```
 
 ## Output
 
